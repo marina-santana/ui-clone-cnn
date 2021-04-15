@@ -6,6 +6,7 @@ import Navbar from './components/NavBar/NavBar';
 import News from './components/News/News';
 import NewsLetter from './components/NewsLetter/NewsLetter';
 import SearchBar from './components/SearchBar/SearchBar';
+import Main from './page/Main/Main';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar/>
       <SearchBar/>
       <Carousel/>
+      <Main/>
       <News/>
       <NewsLetter/>
       <Footer/>

@@ -19,4 +19,8 @@ export const Container = styled.div`
     font-size: 1.25rem;
     background-color: ${theme.colors.mineShaft};
   }
+
+  @media (max-width: 720px) {
+    display: none;
+  }
 `;

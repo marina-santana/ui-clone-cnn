@@ -10,13 +10,17 @@ export const Container = styled.nav`
   justify-content: flex-start;
   padding-left: 10px;
 
-  svg{
+  svg:first-of-type{
     border: 3px solid white;
     height: 72px;
     position: relative;
     top: -12px;
     border: 3px solid ${theme.colors.alabaster};
     background-color: white;
+  }
+
+  svg:last-of-type{
+    display: none;
   }
 
   > div{
@@ -50,5 +54,23 @@ export const Container = styled.nav`
 
   li + li {
     margin-left: 15px;
+  }
+
+  @media (max-width: 720px) {
+    margin-top: 20px;
+
+    ul, div{
+      display: none;
+    }
+
+    svg:last-of-type{
+      display: block;
+      fill: white;
+      width: 30px;
+      height: 30px;  
+      position: absolute;
+      right: 0;
+      margin-right: 20px;
+    }
   }
 `;

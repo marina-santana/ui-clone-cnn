@@ -45,4 +45,13 @@ export const Container = styled.div`
   .follow-us div svg path{
     fill: white;
   }
+
+  @media (max-width: 720px) {
+    height: 110px;
+
+    ul, div, span{
+      display: none;
+    }
+    
+  }
 `;

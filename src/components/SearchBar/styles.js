@@ -44,4 +44,8 @@ export const Container = styled.div`
     color: ${theme.colors.tundora};
     font-size: .9rem;
   }  
+
+  @media (max-width: 720px) {
+    display: none;
+  }
 `;

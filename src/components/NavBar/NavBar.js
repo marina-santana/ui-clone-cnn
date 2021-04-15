@@ -1,12 +1,12 @@
 import React from 'react';
-import {ReactComponent as ReactLogo} from '../../assets/vector/logo.svg';
-
+import {ReactComponent as LogoCNN} from '../../assets/vector/logo.svg';
+import {ReactComponent as MenuHamburguer} from '../../assets/vector/menu.svg';
 import { Container } from './styles';
 
 function Navbar() {
   return (
     <Container>
-      <ReactLogo/>
+      <LogoCNN/>
       <div>
         <div>Ao Vivo</div>
         <span></span>
@@ -23,6 +23,7 @@ function Navbar() {
         <li>Estilo</li>
         <li>Viagem & Gastronomia</li>
       </ul>
+      <MenuHamburguer/>
     </Container>);
 }
 

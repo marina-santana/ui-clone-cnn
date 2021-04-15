@@ -22,10 +22,6 @@ export const Container = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-
-    svg{
-      /* margin-top: 20px; */
-    }
   }
 
   > div:nth-of-type(1) div{
@@ -79,6 +75,21 @@ export const Container = styled.div`
     padding: 10px 18px;
     border-radius: 4px;
     margin-left: 10px;
+  }
+
+  @media (max-width: 720px) {
+    padding: 20px;
+    flex-direction: column;
+    text-align: left;
+    align-items: baseline;
+
+    >div:first-of-type{
+      margin-bottom: 15px;
+    }
+
+    input{
+      width: 40%;
+    }
   }
   
 `;

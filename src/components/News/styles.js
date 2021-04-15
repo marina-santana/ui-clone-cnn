@@ -6,4 +6,8 @@ export const Container = styled.div`
   height: 448px;
   background-image: url(${imgNews});
   background-size: cover;
+
+  @media (max-width: 720px) {
+    display: none;
+  }
 `;
