@@ -2,8 +2,6 @@
 
 ![CNN](https://github.com/marina-santana/ui-clone-cnn/blob/master/video.gif)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Como rodar 
 
 - Primeiro faça clone do projeto
